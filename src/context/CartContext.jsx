@@ -27,15 +27,18 @@ export function CartProvider({ children }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  let mounted = true;
+
   useEffect(() => {
   if (!session) {
     setProducts([]);
     setCart([]);
     setLoading(false);
+    fetchProductsSupabase();
     return;
   }
 
-  let mounted = true;
+
 
   async function fetchProductsSupabase() {
     try {
