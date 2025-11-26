@@ -84,7 +84,7 @@
   display: flex;
   font-weight: bolder;
   font-size: 5rem;
-  color: rgb(37, 100, 234);
+  color: rgb(235, 23, 23);
   text-align: center;
   align-items: center;
   margin-left: 40px;
@@ -162,7 +162,7 @@
 }
 
 .footerContent p {
-  color: rgb(37, 100, 234);
+  color: rgb(230, 18, 18);
   font-size: 5rem;
   font-family: "Ephesis", cursive;
   font-weight: bold;

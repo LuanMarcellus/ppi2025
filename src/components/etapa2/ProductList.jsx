@@ -21,7 +21,7 @@ export function ProductList() {
           <input 
           type="text"
           ref={searchInput}
-          placeholder="Search products..."
+          placeholder="Procure produtos..."
           onChange={() => {
             const query = searchInput.current.value.toLowerCase();
             filteredProducts = products.filter(product =>

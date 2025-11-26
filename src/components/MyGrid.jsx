@@ -8,7 +8,7 @@ export function MyGrid() {
     <div className={styles.container}>
       <header className={styles.header1}>
         <BookOpenCheck />
-        <h1>Foco, Força, Fé</h1>
+        <h1>Deus, Pátria, Família</h1>
       </header>
       <main className={styles.main}>
         <div className={styles.grid}>
@@ -107,16 +107,16 @@ export function MyGrid() {
             <h1>Programação para Internet 2025</h1>
           </div>
           <div>
-            <p>Artur Lima Melo</p>
+            <p>Luan Marcellus</p>
           </div>
           <div className={styles.icons}>
-            <a href="https://github.com/ArturLimaMelo" target="_blank">
+            <a href="https://github.com/LuanMarcellus" target="_blank">
               <Github />
             </a>
-            <a href="https://instagram.com/arturlima_m/" target="_blank">
+            <a href="https://instagram.com/luan_marcl/" target="_blank">
               <Instagram />
             </a>
-            <a href="tel:+5584981536108" target="_blank">
+            <a href="tel:+5584933005265" target="_blank">
               <Phone />
             </a>
           </div>

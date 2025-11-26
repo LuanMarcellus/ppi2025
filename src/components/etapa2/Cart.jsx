@@ -11,7 +11,7 @@ export function Cart() {
     <div className={styles.cart}>
       <h2 className={styles.title}>Shopping Cart</h2>
       {uniqueProducts.length === 0 ? (
-        <p className={styles.empty}>Your cart is empty</p>
+        <p className={styles.empty}>Seu carrinho está vazio</p>
       ) : (
         <>
           <ul className={styles.cartList}>
