@@ -21,7 +21,7 @@
   display: flex;
   font-weight: bolder;
   font-size: 5rem;
-  color: rgb(37, 100, 234);
+  color: rgb(236, 19, 19);
   text-align: center;
   margin-left: 40px;
   @media (max-width: 768px) {
@@ -47,7 +47,7 @@
   display: flex;
   font-weight: bolder;
   font-size: 3rem;
-  color: rgb(37, 100, 234);
+  color: rgb(234, 37, 37);
   padding: 1rem;
 }
 
@@ -55,19 +55,19 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  color: rgb(37, 100, 234);
+  color: rgb(234, 37, 37);
   font-size: 3rem;
   margin-right: 1rem;
 }
 
 .cart p {
   display: inline-block;
-  background-color: rgb(17, 31, 80);
-  border: 1px solid rgb(37, 100, 234);
+  background-color: rgb(234, 37, 37);
+  border: 1px solid rgb(234, 37, 37);
   margin: 0.5rem;
   padding: 5px;
   border-radius: 1rem;
-  color: rgb(37, 100, 234);
+  color: rgb(234, 37, 37);
   font-size: 1.5rem;
   height: 35px;
 }
